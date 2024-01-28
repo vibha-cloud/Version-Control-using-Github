@@ -1,0 +1,22 @@
+Commands:
+
+mkdir Story
+cd story
+
+touch text.txt
+code text.txt
+
+touch ch1.txt
+code ch1.txt
+
+git init
+
+ls
+ls -a
+
+git status
+
+git add ch1.txt
+
+git add .
+
