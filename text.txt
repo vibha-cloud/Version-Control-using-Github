@@ -35,3 +35,11 @@ code ch3.txt
 git add .
 
 git commit -m "Complete chapter 2 and 3"
+
+git diff ch3.txt
+
+git checkout ch3.txt
+
+git add .
+
+git commit -m "Done video 1"
