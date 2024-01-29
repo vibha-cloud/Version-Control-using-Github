@@ -43,3 +43,9 @@ git checkout ch3.txt
 git add .
 
 git commit -m "Done video 1"
+
+git remote add origin https://github.com/vibha-cloud/Version-Control-using-Github.git
+
+git branch -M main
+
+git push -u origin main
