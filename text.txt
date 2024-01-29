@@ -1,4 +1,4 @@
-Commands:
+// Version Control using Git and Command line:
 
 mkdir Story
 cd story
@@ -44,8 +44,47 @@ git add .
 
 git commit -m "Done video 1"
 
+
+// Github and remote repositories:
+
 git remote add origin https://github.com/vibha-cloud/Version-Control-using-Github.git
 
 git branch -M main
 
 git push -u origin main
+
+# changes performed
+
+git add .
+
+git commit -m "Done video 2"
+
+git status
+
+git push
+
+
+// gitignore:
+
+touch secrets.txt
+code secrets.txt
+
+touch .gitignore
+
+ls -a
+
+git add .
+
+git status
+
+git rm --cached -r . (staging area -> unstaged area)
+
+git status
+
+code .gitignore (add file names to be ignored)
+
+git add .
+
+git commit -m "Done video 3"
+
+git push
