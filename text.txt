@@ -25,3 +25,13 @@ git commit -m "Initial commit"
 git log
 
 git commit -m "Complete chapter 1"
+
+touch ch2.txt
+code ch2.txt
+
+touch ch3.txt
+code ch3.txt
+
+git add .
+
+git commit -m "Complete chapter 2 and 3"
