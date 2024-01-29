@@ -88,3 +88,23 @@ git add .
 git commit -m "Done video 3"
 
 git push
+
+// Branching and merging:
+
+git branch newBranch
+
+git branch
+
+git checkout newBranch
+
+git branch
+
+# modify the files
+
+git add .
+
+git commit -m "Modify text.txt"
+
+git log
+
+git checkout main
