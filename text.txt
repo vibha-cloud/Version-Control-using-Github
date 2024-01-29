@@ -89,6 +89,7 @@ git commit -m "Done video 3"
 
 git push
 
+
 // Branching and merging:
 
 git branch newBranch
@@ -108,3 +109,24 @@ git commit -m "Modify text.txt"
 git log
 
 git checkout main
+
+touch ch4.txt
+code ch4.txt
+
+git add .
+
+git commit -m "Add ch4.txt"
+
+git log
+
+git merge newBranch
+
+git log
+
+git add .
+
+git commit -m "Branching and merging done"
+
+git push origin main -u
+
+clear
